@@ -54,7 +54,7 @@ const Home = () => {
                     <Card.Body>
                       <Card.Title>{day.datetime}</Card.Title>
                       <Card.Text>{day.description}</Card.Text>
-                      <Card.Text>Temperature: {day.temp} Farenheit</Card.Text>
+                      <Card.Text>Temperature: {day.temp}°F</Card.Text>
                       <Card.Text>Humidity: {day.humidity}%</Card.Text>
                     </Card.Body>
                   </Card>
