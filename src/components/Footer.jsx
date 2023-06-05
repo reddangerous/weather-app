@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-light text-center text-lg-start bottom">
       <div className="text-center p-3 bg-dark footer-dark text-light">
-        <p>App made possible by Weather API</p>
+        <p>Coding Your Idea to life 🔆</p>
         © {currentYear} Weather Forecasters: made with ❤️ by<br />
         <a className="text-light" href="https://davidwainaina.netlify.app/">
           David Wainaina
