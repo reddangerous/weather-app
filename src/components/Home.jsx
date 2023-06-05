@@ -32,7 +32,7 @@ const Home = () => {
 
   return (
     <div className='Home'>
-      <form onSubmit={handleSubmit} style={{"margin":"40px"}}>
+      <form onSubmit={handleSubmit} style={{"margin":"40px"}} className='search-form'>
         <input type="text" placeholder="Enter Location" style={{"color":" #000"}}/>
         <Button type="submit" className='search'>Search</Button>
       </form>

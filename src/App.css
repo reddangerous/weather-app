@@ -49,5 +49,12 @@ navbar ul{
 .search{
   background-color: black;
   color: #fff;
+  margin-left: 7px;
   
+}
+.search-form{
+  display : flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
