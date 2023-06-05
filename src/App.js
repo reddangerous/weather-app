@@ -1,13 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-import WeatherApp from './WeatherApp';
 
+import './App.css';
+import Footer from './components/Footer';
+
+import Header from './components/Header';
+import Home from './components/Home';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <WeatherApp />
-      </header>
+      <Header />
+      <Home />
+     
+      <Footer />
+
     </div>
   );
   
